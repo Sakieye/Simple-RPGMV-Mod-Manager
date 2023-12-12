@@ -37,7 +37,7 @@ Execute `python -m 'mod_installer.src.main'` in project root
 
 ## File diff
 
-A script that finds and compares two folder files.
+A script that compares files in two folders
 
 ### Download
 

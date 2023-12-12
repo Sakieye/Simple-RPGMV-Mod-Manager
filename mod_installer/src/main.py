@@ -10,7 +10,7 @@ if __name__ == '__main__':
         # 1. input the game folder
         print(lang.get("welcome"))
         game_folder = fs.dir_abspath(input(lang.get("input_game_folder")))
-        game_www = fs.find('www', game_folder, True)  # check www is on the first layer  under the game folder
+        game_www = fs.find('www', game_folder, True)  # check www is located in the first layer of the game folder
         print(lang.get("game_folder_selected"), game_folder, "\n")
         # 2. input mods
         n = int(input(lang.get("input_install_mod_number")))
